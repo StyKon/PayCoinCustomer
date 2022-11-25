@@ -1,0 +1,1435 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="eShop.multivendor.customer"
+4    android:versionCode="4"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:5:5-67
+14-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:5:22-64
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:6:5-81
+15-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:6:22-78
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:7:5-79
+16-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:7:22-76
+17    <uses-permission
+17-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:8:5-80
+18        android:name="android.permission.READ_EXTERNAL_STORAGE"
+18-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:8:22-77
+19        android:maxSdkVersion="32" />
+19-->[:open_filex] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\open_filex\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-35
+20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+20-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:9:5-81
+20-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:9:22-78
+21    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+21-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:10:5-71
+21-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:10:22-68
+22    <uses-permission android:name="android.permission.VIBRATE" />
+22-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:11:5-66
+22-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:11:22-63
+23    <uses-permission android:name="android.permission.BLUETOOTH" />
+23-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:12:5-68
+23-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:12:22-65
+24    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+24-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:14:5-74
+24-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:14:22-71
+25    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+25-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:15:5-76
+25-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:15:22-73
+26
+27    <queries>
+27-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:17:5-39:15
+28
+29        <!-- If your app opens https URLs -->
+30        <intent>
+30-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:19:9-23:18
+31            <action android:name="android.intent.action.VIEW" />
+31-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:20:13-65
+31-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:20:21-62
+32
+33            <data android:scheme="https" />
+33-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:21:13-44
+33-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:21:19-41
+34        </intent>
+35        <!-- If your app makes calls -->
+36        <intent>
+36-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:25:9-28:18
+37            <action android:name="android.intent.action.DIAL" />
+37-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:26:13-65
+37-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:26:21-62
+38
+39            <data android:scheme="tel" />
+39-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:21:13-44
+39-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:21:19-41
+40        </intent>
+41        <!-- If your sends SMS messages -->
+42        <intent>
+42-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:30:9-33:18
+43            <action android:name="android.intent.action.SENDTO" />
+43-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:31:13-67
+43-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:31:21-64
+44
+45            <data android:scheme="smsto" />
+45-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:21:13-44
+45-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:21:19-41
+46        </intent>
+47        <!-- If your app sends emails -->
+48        <intent>
+48-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:35:9-38:18
+49            <action android:name="android.intent.action.SEND" />
+49-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:36:13-65
+49-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:36:21-62
+50
+51            <data android:mimeType="*/*" />
+51-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:21:13-44
+52        </intent>
+53        <intent>
+53-->[:file_picker] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-16:18
+54            <action android:name="android.intent.action.GET_CONTENT" />
+54-->[:file_picker] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-72
+54-->[:file_picker] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:13:21-69
+55
+56            <data android:mimeType="*/*" />
+56-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:21:13-44
+57        </intent>
+58        <intent>
+58-->[:flutter_inappwebview] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:18
+59            <action android:name="android.support.customtabs.action.CustomTabsService" />
+59-->[:flutter_inappwebview] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-90
+59-->[:flutter_inappwebview] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:11:21-87
+60        </intent>
+61        <intent>
+61-->[:flutter_downloader] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_downloader\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-13:18
+62            <action android:name="android.intent.action.VIEW" />
+62-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:20:13-65
+62-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:20:21-62
+63        </intent> <!-- Added to check the default browser that will host the AuthFlow. -->
+64        <intent>
+64-->[com.stripe:financial-connections:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\46654187303e3f2831e2f199e2dbfa66\transformed\jetified-financial-connections-20.11.0\AndroidManifest.xml:15:9-19:18
+65            <action android:name="android.intent.action.VIEW" />
+65-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:20:13-65
+65-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:20:21-62
+66
+67            <data android:scheme="http" />
+67-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:21:13-44
+67-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:21:19-41
+68        </intent> <!-- Added to check if Chrome is installed for browser-based payment authentication (e.g. 3DS1). -->
+69        <package android:name="com.android.chrome" /> <!-- Needs to be explicitly declared on Android R+ -->
+69-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:13:9-54
+69-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:13:18-51
+70        <package android:name="com.google.android.apps.maps" /> <!-- Specific apps you interact with, eg: -->
+70-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\0ac09d87547734ef31750ce43ecbe509\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+70-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\0ac09d87547734ef31750ce43ecbe509\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+71        <package android:name="com.paytm.pgsdk.TransactionManager.PAYTM_APP_PACKAGE" />
+71-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\StyKon\.gradle\caches\transforms-3\68144719fb24297aff67e13d97479b55\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:12:9-88
+71-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\StyKon\.gradle\caches\transforms-3\68144719fb24297aff67e13d97479b55\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:12:18-85
+72        <!--
+73             Specific intents you query for,
+74             eg: for a custom share UI
+75        -->
+76        <intent>
+76-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\StyKon\.gradle\caches\transforms-3\68144719fb24297aff67e13d97479b55\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:17:9-19:18
+77            <action android:name="android.intent.action.MAIN" />
+77-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\StyKon\.gradle\caches\transforms-3\68144719fb24297aff67e13d97479b55\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:18:13-65
+77-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\StyKon\.gradle\caches\transforms-3\68144719fb24297aff67e13d97479b55\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:18:21-62
+78        </intent>
+79        <intent>
+79-->[androidx.media2:media2-session:1.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\2b7ba01200b20c6d9402c3db09899109\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:25:9-27:18
+80            <action android:name="android.media.browse.MediaBrowserService" />
+80-->[androidx.media2:media2-session:1.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\2b7ba01200b20c6d9402c3db09899109\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:26:13-79
+80-->[androidx.media2:media2-session:1.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\2b7ba01200b20c6d9402c3db09899109\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:26:21-76
+81        </intent>
+82        <intent>
+82-->[androidx.media2:media2-session:1.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\2b7ba01200b20c6d9402c3db09899109\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:28:9-30:18
+83            <action android:name="androidx.media2.session.MediaSessionService" />
+83-->[androidx.media2:media2-session:1.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\2b7ba01200b20c6d9402c3db09899109\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:29:13-82
+83-->[androidx.media2:media2-session:1.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\2b7ba01200b20c6d9402c3db09899109\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:29:21-79
+84        </intent>
+85        <intent>
+85-->[androidx.media2:media2-session:1.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\2b7ba01200b20c6d9402c3db09899109\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:31:9-33:18
+86            <action android:name="androidx.media2.session.MediaLibraryService" />
+86-->[androidx.media2:media2-session:1.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\2b7ba01200b20c6d9402c3db09899109\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:32:13-82
+86-->[androidx.media2:media2-session:1.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\2b7ba01200b20c6d9402c3db09899109\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:32:21-79
+87        </intent>
+88    </queries>
+89
+90    <uses-permission android:name="android.permission.WAKE_LOCK" />
+90-->[:firebase_messaging] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-68
+90-->[:firebase_messaging] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-65
+91    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Permissions options for the `notification` group -->
+91-->[:firebase_messaging] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-79
+91-->[:firebase_messaging] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-76
+92    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+92-->[:firebase_messaging] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-77
+92-->[:firebase_messaging] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:13:22-74
+93    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+93-->[:geolocator_android] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-77
+93-->[:geolocator_android] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-74
+94    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+94-->[:flutter_local_notifications] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-81
+94-->[:flutter_local_notifications] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-78
+95    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+95-->[:flutter_local_notifications] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-81
+95-->[:flutter_local_notifications] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-78
+96    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+96-->[:flutter_local_notifications] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-79
+96-->[:flutter_local_notifications] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:12:22-76
+97    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+97-->[:open_filex] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\open_filex\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-76
+97-->[:open_filex] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\open_filex\intermediates\merged_manifest\debug\AndroidManifest.xml:13:22-73
+98    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+98-->[:open_filex] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\open_filex\intermediates\merged_manifest\debug\AndroidManifest.xml:14:5-75
+98-->[:open_filex] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\open_filex\intermediates\merged_manifest\debug\AndroidManifest.xml:14:22-72
+99    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+99-->[:open_filex] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\open_filex\intermediates\merged_manifest\debug\AndroidManifest.xml:15:5-75
+99-->[:open_filex] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\open_filex\intermediates\merged_manifest\debug\AndroidManifest.xml:15:22-72
+100
+101    <uses-feature
+101-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\0ac09d87547734ef31750ce43ecbe509\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+102        android:glEsVersion="0x00020000"
+102-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\0ac09d87547734ef31750ce43ecbe509\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+103        android:required="true" />
+103-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\0ac09d87547734ef31750ce43ecbe509\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+104
+105    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+105-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\StyKon\.gradle\caches\transforms-3\6f15ca2634c59fc6dec7371f5a8c1902\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:10:5-75
+105-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\StyKon\.gradle\caches\transforms-3\6f15ca2634c59fc6dec7371f5a8c1902\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:10:22-72
+106    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+106-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\f64f4fc95f302191be1ba345dd0b4832\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:28:5-82
+106-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\f64f4fc95f302191be1ba345dd0b4832\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:28:22-79
+107    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+107-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\6fbe832f57bace1951bb9624fbf7a0f0\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:25:5-79
+107-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\6fbe832f57bace1951bb9624fbf7a0f0\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:25:22-76
+108    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+108-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\948e6805c8a104814f505ea3e26e36f3\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:26:5-110
+108-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\948e6805c8a104814f505ea3e26e36f3\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:26:22-107
+109
+110    <permission
+110-->[androidx.core:core:1.9.0] C:\Users\StyKon\.gradle\caches\transforms-3\6d8e0cbf4e0d96ec8b2500dd5e6fa290\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+111        android:name="eShop.multivendor.customer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+111-->[androidx.core:core:1.9.0] C:\Users\StyKon\.gradle\caches\transforms-3\6d8e0cbf4e0d96ec8b2500dd5e6fa290\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+112        android:protectionLevel="signature" />
+112-->[androidx.core:core:1.9.0] C:\Users\StyKon\.gradle\caches\transforms-3\6d8e0cbf4e0d96ec8b2500dd5e6fa290\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+113
+114    <uses-permission android:name="eShop.multivendor.customer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+114-->[androidx.core:core:1.9.0] C:\Users\StyKon\.gradle\caches\transforms-3\6d8e0cbf4e0d96ec8b2500dd5e6fa290\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+114-->[androidx.core:core:1.9.0] C:\Users\StyKon\.gradle\caches\transforms-3\6d8e0cbf4e0d96ec8b2500dd5e6fa290\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+115
+116    <application
+117        android:name="android.app.Application"
+118        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+118-->[androidx.core:core:1.9.0] C:\Users\StyKon\.gradle\caches\transforms-3\6d8e0cbf4e0d96ec8b2500dd5e6fa290\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+119        android:debuggable="true"
+120        android:icon="@mipmap/ic_launcher"
+121        android:label="eShop Multi"
+122        android:requestLegacyExternalStorage="true"
+123        android:usesCleartextTraffic="true" >
+124        <activity
+125            android:name="com.razorpay.CheckoutActivity"
+126            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+126-->[com.razorpay:checkout:1.5.0] C:\Users\StyKon\.gradle\caches\transforms-3\79832664cceb3472c5d9537cf8524034\transformed\jetified-checkout-1.5.0\AndroidManifest.xml:20:13-83
+127            android:exported="true"
+128            android:theme="@style/CheckoutTheme" >
+128-->[com.razorpay:checkout:1.5.0] C:\Users\StyKon\.gradle\caches\transforms-3\79832664cceb3472c5d9537cf8524034\transformed\jetified-checkout-1.5.0\AndroidManifest.xml:21:13-49
+129            <intent-filter>
+129-->[com.razorpay:checkout:1.5.0] C:\Users\StyKon\.gradle\caches\transforms-3\79832664cceb3472c5d9537cf8524034\transformed\jetified-checkout-1.5.0\AndroidManifest.xml:22:13-28:29
+130                <action android:name="android.intent.action.MAIN" />
+130-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\StyKon\.gradle\caches\transforms-3\68144719fb24297aff67e13d97479b55\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:18:13-65
+130-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\StyKon\.gradle\caches\transforms-3\68144719fb24297aff67e13d97479b55\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:18:21-62
+131
+132                <data
+132-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:21:13-44
+133                    android:host="rzp.io"
+134                    android:scheme="io.rzp" />
+134-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:21:19-41
+135            </intent-filter>
+136        </activity>
+137
+138        <receiver
+139            android:name="com.razorpay.RzpTokenReceiver"
+140            android:exported="false" >
+141            <intent-filter>
+142                <action android:name="rzp.device_token.share" />
+143            </intent-filter>
+144        </receiver>
+145
+146        <activity
+147            android:name="eShop.multivendor.customer.MainActivity"
+148            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+149            android:exported="true"
+150            android:hardwareAccelerated="true"
+151            android:launchMode="singleTop"
+152            android:theme="@style/LaunchTheme"
+153            android:windowSoftInputMode="adjustResize" >
+154
+155            <!--
+156                 Specifies an Android theme to apply to this Activity as soon as
+157                 the Android process has started. This theme is visible to the user
+158                 while the Flutter UI initializes. After that, this theme continues
+159                 to determine the Window background behind the Flutter UI.
+160            -->
+161            <meta-data
+162                android:name="io.flutter.embedding.android.NormalTheme"
+163                android:resource="@style/NormalTheme" />
+164
+165            <intent-filter>
+166                <action android:name="android.intent.action.MAIN" />
+166-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\StyKon\.gradle\caches\transforms-3\68144719fb24297aff67e13d97479b55\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:18:13-65
+166-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\StyKon\.gradle\caches\transforms-3\68144719fb24297aff67e13d97479b55\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:18:21-62
+167
+168                <category android:name="android.intent.category.LAUNCHER" />
+169            </intent-filter>
+170            <intent-filter>
+171                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+172
+173                <category android:name="android.intent.category.DEFAULT" />
+173-->[com.stripe:financial-connections:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\46654187303e3f2831e2f199e2dbfa66\transformed\jetified-financial-connections-20.11.0\AndroidManifest.xml:29:17-76
+173-->[com.stripe:financial-connections:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\46654187303e3f2831e2f199e2dbfa66\transformed\jetified-financial-connections-20.11.0\AndroidManifest.xml:29:27-73
+174            </intent-filter>
+175        </activity>
+176
+177        <!--
+178             Don't delete the meta-data below.
+179             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+180        -->
+181
+182
+183        <!-- After Adding Key, Uncomment below lines -->
+184        <meta-data
+185            android:name="com.google.android.geo.API_KEY"
+186            android:value="AIzaSyDDs2dRc5fGYwvyf6OkXQHSyqEgzWeHbrQ" />
+187        <meta-data
+188            android:name="vn.hunghd.flutterdownloader.NOTIFICATION_ICON"
+189            android:resource="@drawable/ic_launcher" />
+190        <meta-data
+191            android:name="com.google.firebase.messaging.default_notification_icon"
+192            android:resource="@drawable/ic_launcher" />
+193        <meta-data
+194            android:name="flutterEmbedding"
+195            android:value="2" />
+196
+197        <service
+197-->[:firebase_messaging] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-19:72
+198            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+198-->[:firebase_messaging] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-107
+199            android:exported="false"
+199-->[:firebase_messaging] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
+200            android:permission="android.permission.BIND_JOB_SERVICE" />
+200-->[:firebase_messaging] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-69
+201        <service
+201-->[:firebase_messaging] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-26:19
+202            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+202-->[:firebase_messaging] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-97
+203            android:exported="false" >
+203-->[:firebase_messaging] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-37
+204            <intent-filter>
+204-->[:firebase_messaging] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-25:29
+205                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+205-->[:firebase_messaging] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-78
+205-->[:firebase_messaging] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:25-75
+206            </intent-filter>
+207        </service>
+208
+209        <receiver
+209-->[:firebase_messaging] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:28:9-35:20
+210            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+210-->[:firebase_messaging] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-98
+211            android:exported="true"
+211-->[:firebase_messaging] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-36
+212            android:permission="com.google.android.c2dm.permission.SEND" >
+212-->[:firebase_messaging] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-73
+213            <intent-filter>
+213-->[:firebase_messaging] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-34:29
+214                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+214-->[:firebase_messaging] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:17-81
+214-->[:firebase_messaging] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:25-78
+215            </intent-filter>
+216        </receiver>
+217
+218        <service
+218-->[:firebase_messaging] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:37:9-41:19
+219            android:name="com.google.firebase.components.ComponentDiscoveryService"
+219-->[:firebase_messaging] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:37:18-89
+220            android:directBootAware="true"
+220-->[com.google.firebase:firebase-common:20.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\90fa70d41b48ff4926cc9ed3f13b3f1c\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:34:13-43
+221            android:exported="false" >
+221-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\392eabcf30c8d93cf521f8595d2567d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:66:13-37
+222            <meta-data
+222-->[:firebase_messaging] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-40:85
+223                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+223-->[:firebase_messaging] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:39:17-128
+224                android:value="com.google.firebase.components.ComponentRegistrar" />
+224-->[:firebase_messaging] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:40:17-82
+225            <meta-data
+225-->[:firebase_dynamic_links] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_dynamic_links\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-15:85
+226                android:name="com.google.firebase.components:io.flutter.plugins.firebase.dynamiclinks.FlutterFirebaseAppRegistrar"
+226-->[:firebase_dynamic_links] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_dynamic_links\intermediates\merged_manifest\debug\AndroidManifest.xml:14:17-131
+227                android:value="com.google.firebase.components.ComponentRegistrar" />
+227-->[:firebase_dynamic_links] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_dynamic_links\intermediates\merged_manifest\debug\AndroidManifest.xml:15:17-82
+228            <meta-data
+228-->[:firebase_auth] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+229                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+229-->[:firebase_auth] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+230                android:value="com.google.firebase.components.ComponentRegistrar" />
+230-->[:firebase_auth] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+231            <meta-data
+231-->[:firebase_core] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+232                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+232-->[:firebase_core] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+233                android:value="com.google.firebase.components.ComponentRegistrar" />
+233-->[:firebase_core] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+234            <meta-data
+234-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\392eabcf30c8d93cf521f8595d2567d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:67:13-69:85
+235                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+235-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\392eabcf30c8d93cf521f8595d2567d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:68:17-109
+236                android:value="com.google.firebase.components.ComponentRegistrar" />
+236-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\392eabcf30c8d93cf521f8595d2567d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:69:17-82
+237            <meta-data
+237-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\f64f4fc95f302191be1ba345dd0b4832\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:55:13-57:85
+238                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+238-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\f64f4fc95f302191be1ba345dd0b4832\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:56:17-119
+239                android:value="com.google.firebase.components.ComponentRegistrar" />
+239-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\f64f4fc95f302191be1ba345dd0b4832\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:57:17-82
+240            <meta-data
+240-->[com.google.firebase:firebase-dynamic-links:21.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\fce2435eae4ecec4d5f581f9e21d3d97\transformed\jetified-firebase-dynamic-links-21.1.0\AndroidManifest.xml:26:13-28:85
+241                android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar"
+241-->[com.google.firebase:firebase-dynamic-links:21.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\fce2435eae4ecec4d5f581f9e21d3d97\transformed\jetified-firebase-dynamic-links-21.1.0\AndroidManifest.xml:27:17-133
+242                android:value="com.google.firebase.components.ComponentRegistrar" />
+242-->[com.google.firebase:firebase-dynamic-links:21.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\fce2435eae4ecec4d5f581f9e21d3d97\transformed\jetified-firebase-dynamic-links-21.1.0\AndroidManifest.xml:28:17-82
+243            <meta-data
+243-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\067bfa8781d8047e098c12c7be4d9eba\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:32:13-34:85
+244                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+244-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\067bfa8781d8047e098c12c7be4d9eba\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:33:17-96
+245                android:value="com.google.firebase.components.ComponentRegistrar" />
+245-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\067bfa8781d8047e098c12c7be4d9eba\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:34:17-82
+246            <meta-data
+246-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\6fbe832f57bace1951bb9624fbf7a0f0\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:31:13-33:85
+247                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+247-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\6fbe832f57bace1951bb9624fbf7a0f0\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:32:17-139
+248                android:value="com.google.firebase.components.ComponentRegistrar" />
+248-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\6fbe832f57bace1951bb9624fbf7a0f0\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:33:17-82
+249            <meta-data
+249-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\StyKon\.gradle\caches\transforms-3\37ffd065c735f74f8954fbdb82280338\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+250                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+250-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\StyKon\.gradle\caches\transforms-3\37ffd065c735f74f8954fbdb82280338\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+251                android:value="com.google.firebase.components.ComponentRegistrar" />
+251-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\StyKon\.gradle\caches\transforms-3\37ffd065c735f74f8954fbdb82280338\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+252            <meta-data
+252-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\a925b3d70fd5d121fe2ffdb21b9528ff\transformed\jetified-firebase-installations-17.1.0\AndroidManifest.xml:17:13-19:85
+253                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+253-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\a925b3d70fd5d121fe2ffdb21b9528ff\transformed\jetified-firebase-installations-17.1.0\AndroidManifest.xml:18:17-127
+254                android:value="com.google.firebase.components.ComponentRegistrar" />
+254-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\a925b3d70fd5d121fe2ffdb21b9528ff\transformed\jetified-firebase-installations-17.1.0\AndroidManifest.xml:19:17-82
+255        </service>
+256
+257        <provider
+257-->[:firebase_messaging] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:43:9-47:38
+258            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+258-->[:firebase_messaging] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-102
+259            android:authorities="eShop.multivendor.customer.flutterfirebasemessaginginitprovider"
+259-->[:firebase_messaging] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-88
+260            android:exported="false"
+260-->[:firebase_messaging] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-37
+261            android:initOrder="99" />
+261-->[:firebase_messaging] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-35
+262
+263        <service
+263-->[:geolocator_android] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-16:56
+264            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+264-->[:geolocator_android] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-77
+265            android:enabled="true"
+265-->[:geolocator_android] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-35
+266            android:exported="false"
+266-->[:geolocator_android] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-37
+267            android:foregroundServiceType="location" />
+267-->[:geolocator_android] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-53
+268
+269        <receiver
+269-->[:flutter_local_notifications] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-18:40
+270            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+270-->[:flutter_local_notifications] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-91
+271            android:exported="false" />
+271-->[:flutter_local_notifications] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
+272        <receiver
+272-->[:flutter_local_notifications] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-21:40
+273            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+273-->[:flutter_local_notifications] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-97
+274            android:exported="false" />
+274-->[:flutter_local_notifications] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-37
+275        <receiver
+275-->[:flutter_local_notifications] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:22:9-31:20
+276            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+276-->[:flutter_local_notifications] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-101
+277            android:exported="false" >
+277-->[:flutter_local_notifications] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-37
+278            <intent-filter>
+278-->[:flutter_local_notifications] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-30:29
+279                <action android:name="android.intent.action.BOOT_COMPLETED" />
+279-->[:flutter_local_notifications] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:17-79
+279-->[:flutter_local_notifications] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:25-76
+280                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+280-->[:flutter_local_notifications] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:27:17-84
+280-->[:flutter_local_notifications] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:27:25-81
+281                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+281-->[:flutter_local_notifications] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:28:17-82
+281-->[:flutter_local_notifications] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:28:25-79
+282                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+282-->[:flutter_local_notifications] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-82
+282-->[:flutter_local_notifications] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:25-79
+283            </intent-filter>
+284        </receiver>
+285
+286        <activity
+286-->[:flutter_inappwebview] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-20:47
+287            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+287-->[:flutter_inappwebview] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-104
+288            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+288-->[:flutter_inappwebview] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-137
+289            android:exported="false"
+289-->[:flutter_inappwebview] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-37
+290            android:theme="@style/AppTheme" />
+290-->[:flutter_inappwebview] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-44
+291        <activity
+291-->[:flutter_inappwebview] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-24:55
+292            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+292-->[:flutter_inappwebview] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-112
+293            android:exported="false"
+293-->[:flutter_inappwebview] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-37
+294            android:theme="@style/ThemeTransparent" />
+294-->[:flutter_inappwebview] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-52
+295        <activity
+295-->[:flutter_inappwebview] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-28:55
+296            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+296-->[:flutter_inappwebview] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-106
+297            android:exported="false"
+297-->[:flutter_inappwebview] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-37
+298            android:theme="@style/ThemeTransparent" />
+298-->[:flutter_inappwebview] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-52
+299        <activity
+299-->[:flutter_inappwebview] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:29:9-33:55
+300            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+300-->[:flutter_inappwebview] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-126
+301            android:exported="false"
+301-->[:flutter_inappwebview] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-37
+302            android:launchMode="singleInstance"
+302-->[:flutter_inappwebview] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-48
+303            android:theme="@style/ThemeTransparent" />
+303-->[:flutter_inappwebview] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:33:13-52
+304        <activity
+304-->[:flutter_inappwebview] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-38:55
+305            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+305-->[:flutter_inappwebview] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-120
+306            android:exported="false"
+306-->[:flutter_inappwebview] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-37
+307            android:launchMode="singleInstance"
+307-->[:flutter_inappwebview] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-48
+308            android:theme="@style/ThemeTransparent" />
+308-->[:flutter_inappwebview] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-52
+309
+310        <receiver
+310-->[:flutter_inappwebview] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:40:9-43:40
+311            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+311-->[:flutter_inappwebview] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-111
+312            android:enabled="true"
+312-->[:flutter_inappwebview] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-35
+313            android:exported="false" />
+313-->[:flutter_inappwebview] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-37
+314
+315        <meta-data
+315-->[:flutter_inappwebview] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:45:9-47:36
+316            android:name="io.flutter.embedded_views_preview"
+316-->[:flutter_inappwebview] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-61
+317            android:value="true" />
+317-->[:flutter_inappwebview] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-33
+318
+319        <provider
+319-->[:share_plus] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+320            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+320-->[:share_plus] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-77
+321            android:authorities="eShop.multivendor.customer.flutter.share_provider"
+321-->[:share_plus] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-74
+322            android:exported="false"
+322-->[:share_plus] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+323            android:grantUriPermissions="true" >
+323-->[:share_plus] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+324            <meta-data
+324-->[:share_plus] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:68
+325                android:name="android.support.FILE_PROVIDER_PATHS"
+325-->[:share_plus] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+326                android:resource="@xml/flutter_share_file_paths" />
+326-->[:share_plus] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-65
+327        </provider>
+328
+329        <activity
+329-->[:flutter_paystack] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_paystack\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:54
+330            android:name="co.paystack.flutterpaystack.AuthActivity"
+330-->[:flutter_paystack] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_paystack\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-68
+331            android:theme="@style/Paystack.Dialog" />
+331-->[:flutter_paystack] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_paystack\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-51
+332        <activity
+332-->[:url_launcher_android] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
+333            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+333-->[:url_launcher_android] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+334            android:exported="false"
+334-->[:url_launcher_android] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+335            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+335-->[:url_launcher_android] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
+336
+337        <provider
+337-->[:open_filex] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\open_filex\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-27:20
+338            android:name="com.crazecoder.openfile.FileProvider"
+338-->[:open_filex] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\open_filex\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-64
+339            android:authorities="eShop.multivendor.customer.fileProvider.com.crazecoder.openfile"
+339-->[:open_filex] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\open_filex\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-88
+340            android:exported="false"
+340-->[:open_filex] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\open_filex\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-37
+341            android:grantUriPermissions="true" >
+341-->[:open_filex] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\open_filex\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-47
+342            <meta-data
+342-->[:share_plus] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:68
+343                android:name="android.support.FILE_PROVIDER_PATHS"
+343-->[:share_plus] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+344                android:resource="@xml/filepaths" />
+344-->[:share_plus] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-65
+345        </provider>
+346
+347        <activity
+347-->[com.stripe:paymentsheet:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\903108b6cbf62d611abfdba335b60cb2\transformed\jetified-paymentsheet-20.11.0\AndroidManifest.xml:10:9-13:69
+348            android:name="com.stripe.android.paymentsheet.PaymentSheetActivity"
+348-->[com.stripe:paymentsheet:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\903108b6cbf62d611abfdba335b60cb2\transformed\jetified-paymentsheet-20.11.0\AndroidManifest.xml:11:13-80
+349            android:exported="false"
+349-->[com.stripe:paymentsheet:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\903108b6cbf62d611abfdba335b60cb2\transformed\jetified-paymentsheet-20.11.0\AndroidManifest.xml:12:13-37
+350            android:theme="@style/StripePaymentSheetDefaultTheme" />
+350-->[com.stripe:paymentsheet:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\903108b6cbf62d611abfdba335b60cb2\transformed\jetified-paymentsheet-20.11.0\AndroidManifest.xml:13:13-66
+351        <activity
+351-->[com.stripe:paymentsheet:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\903108b6cbf62d611abfdba335b60cb2\transformed\jetified-paymentsheet-20.11.0\AndroidManifest.xml:14:9-17:69
+352            android:name="com.stripe.android.paymentsheet.PaymentOptionsActivity"
+352-->[com.stripe:paymentsheet:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\903108b6cbf62d611abfdba335b60cb2\transformed\jetified-paymentsheet-20.11.0\AndroidManifest.xml:15:13-82
+353            android:exported="false"
+353-->[com.stripe:paymentsheet:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\903108b6cbf62d611abfdba335b60cb2\transformed\jetified-paymentsheet-20.11.0\AndroidManifest.xml:16:13-37
+354            android:theme="@style/StripePaymentSheetDefaultTheme" />
+354-->[com.stripe:paymentsheet:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\903108b6cbf62d611abfdba335b60cb2\transformed\jetified-paymentsheet-20.11.0\AndroidManifest.xml:17:13-66
+355        <activity
+355-->[com.stripe:paymentsheet:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\903108b6cbf62d611abfdba335b60cb2\transformed\jetified-paymentsheet-20.11.0\AndroidManifest.xml:18:9-21:69
+356            android:name="com.stripe.android.paymentsheet.addresselement.AddressElementActivity"
+356-->[com.stripe:paymentsheet:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\903108b6cbf62d611abfdba335b60cb2\transformed\jetified-paymentsheet-20.11.0\AndroidManifest.xml:19:13-97
+357            android:exported="false"
+357-->[com.stripe:paymentsheet:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\903108b6cbf62d611abfdba335b60cb2\transformed\jetified-paymentsheet-20.11.0\AndroidManifest.xml:20:13-37
+358            android:theme="@style/StripePaymentSheetDefaultTheme" />
+358-->[com.stripe:paymentsheet:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\903108b6cbf62d611abfdba335b60cb2\transformed\jetified-paymentsheet-20.11.0\AndroidManifest.xml:21:13-66
+359        <activity
+359-->[com.stripe:link:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\ae42278f1c4da690d28180d7f31e92fb\transformed\jetified-link-20.11.0\AndroidManifest.xml:10:9-14:52
+360            android:name="com.stripe.android.link.LinkActivity"
+360-->[com.stripe:link:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\ae42278f1c4da690d28180d7f31e92fb\transformed\jetified-link-20.11.0\AndroidManifest.xml:11:13-64
+361            android:exported="false"
+361-->[com.stripe:link:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\ae42278f1c4da690d28180d7f31e92fb\transformed\jetified-link-20.11.0\AndroidManifest.xml:12:13-37
+362            android:label="@string/link"
+362-->[com.stripe:link:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\ae42278f1c4da690d28180d7f31e92fb\transformed\jetified-link-20.11.0\AndroidManifest.xml:13:13-41
+363            android:theme="@style/LinkBaseTheme" />
+363-->[com.stripe:link:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\ae42278f1c4da690d28180d7f31e92fb\transformed\jetified-link-20.11.0\AndroidManifest.xml:14:13-49
+364        <activity
+364-->[com.stripe:financial-connections:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\46654187303e3f2831e2f199e2dbfa66\transformed\jetified-financial-connections-20.11.0\AndroidManifest.xml:23:9-42:20
+365            android:name="com.stripe.android.financialconnections.FinancialConnectionsSheetRedirectActivity"
+365-->[com.stripe:financial-connections:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\46654187303e3f2831e2f199e2dbfa66\transformed\jetified-financial-connections-20.11.0\AndroidManifest.xml:24:13-109
+366            android:exported="true" >
+366-->[com.stripe:financial-connections:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\46654187303e3f2831e2f199e2dbfa66\transformed\jetified-financial-connections-20.11.0\AndroidManifest.xml:25:13-36
+367            <intent-filter>
+367-->[com.stripe:financial-connections:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\46654187303e3f2831e2f199e2dbfa66\transformed\jetified-financial-connections-20.11.0\AndroidManifest.xml:26:13-41:29
+368                <action android:name="android.intent.action.VIEW" />
+368-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:20:13-65
+368-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:20:21-62
+369
+370                <category android:name="android.intent.category.DEFAULT" />
+370-->[com.stripe:financial-connections:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\46654187303e3f2831e2f199e2dbfa66\transformed\jetified-financial-connections-20.11.0\AndroidManifest.xml:29:17-76
+370-->[com.stripe:financial-connections:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\46654187303e3f2831e2f199e2dbfa66\transformed\jetified-financial-connections-20.11.0\AndroidManifest.xml:29:27-73
+371                <category android:name="android.intent.category.BROWSABLE" />
+371-->[com.stripe:financial-connections:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\46654187303e3f2831e2f199e2dbfa66\transformed\jetified-financial-connections-20.11.0\AndroidManifest.xml:30:17-78
+371-->[com.stripe:financial-connections:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\46654187303e3f2831e2f199e2dbfa66\transformed\jetified-financial-connections-20.11.0\AndroidManifest.xml:30:27-75
+372
+373                <!-- Accepts success and cancel URIs that begin with "stripe-auth://link-accounts” -->
+374                <data
+374-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:21:13-44
+375                    android:host="link-accounts"
+376                    android:path="/eShop.multivendor.customer/success"
+377                    android:scheme="stripe-auth" />
+377-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:21:19-41
+378                <data
+378-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:21:13-44
+379                    android:host="link-accounts"
+380                    android:path="/eShop.multivendor.customer/cancel"
+381                    android:scheme="stripe-auth" />
+381-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:21:19-41
+382            </intent-filter>
+383        </activity>
+384        <activity
+384-->[com.stripe:financial-connections:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\46654187303e3f2831e2f199e2dbfa66\transformed\jetified-financial-connections-20.11.0\AndroidManifest.xml:43:9-46:57
+385            android:name="com.stripe.android.financialconnections.FinancialConnectionsSheetActivity"
+385-->[com.stripe:financial-connections:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\46654187303e3f2831e2f199e2dbfa66\transformed\jetified-financial-connections-20.11.0\AndroidManifest.xml:44:13-101
+386            android:exported="false"
+386-->[com.stripe:financial-connections:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\46654187303e3f2831e2f199e2dbfa66\transformed\jetified-financial-connections-20.11.0\AndroidManifest.xml:45:13-37
+387            android:theme="@style/StripeDefaultTheme" />
+387-->[com.stripe:financial-connections:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\46654187303e3f2831e2f199e2dbfa66\transformed\jetified-financial-connections-20.11.0\AndroidManifest.xml:46:13-54
+388
+389        <provider
+389-->[com.stripe:financial-connections:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\46654187303e3f2831e2f199e2dbfa66\transformed\jetified-financial-connections-20.11.0\AndroidManifest.xml:48:9-52:43
+390            android:name="com.stripe.android.financialconnections.appinitializer.FinancialConnectionsInitializer"
+390-->[com.stripe:financial-connections:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\46654187303e3f2831e2f199e2dbfa66\transformed\jetified-financial-connections-20.11.0\AndroidManifest.xml:49:13-114
+391            android:authorities="eShop.multivendor.customer.financialconnections-init"
+391-->[com.stripe:financial-connections:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\46654187303e3f2831e2f199e2dbfa66\transformed\jetified-financial-connections-20.11.0\AndroidManifest.xml:50:13-77
+392            android:exported="false"
+392-->[com.stripe:financial-connections:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\46654187303e3f2831e2f199e2dbfa66\transformed\jetified-financial-connections-20.11.0\AndroidManifest.xml:51:13-37
+393            android:multiprocess="true" />
+393-->[com.stripe:financial-connections:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\46654187303e3f2831e2f199e2dbfa66\transformed\jetified-financial-connections-20.11.0\AndroidManifest.xml:52:13-40
+394
+395        <activity
+395-->[com.stripe:payments-ui-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\3727e3b53a60d04b702357fb8797c24f\transformed\jetified-payments-ui-core-20.11.0\AndroidManifest.xml:10:9-13:69
+396            android:name="com.stripe.android.ui.core.cardscan.CardScanActivity"
+396-->[com.stripe:payments-ui-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\3727e3b53a60d04b702357fb8797c24f\transformed\jetified-payments-ui-core-20.11.0\AndroidManifest.xml:11:13-80
+397            android:exported="false"
+397-->[com.stripe:payments-ui-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\3727e3b53a60d04b702357fb8797c24f\transformed\jetified-payments-ui-core-20.11.0\AndroidManifest.xml:12:13-37
+398            android:theme="@style/StripePaymentSheetDefaultTheme" />
+398-->[com.stripe:payments-ui-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\3727e3b53a60d04b702357fb8797c24f\transformed\jetified-payments-ui-core-20.11.0\AndroidManifest.xml:13:13-66
+399        <activity
+399-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:17:9-20:57
+400            android:name="com.stripe.android.view.AddPaymentMethodActivity"
+400-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:18:13-76
+401            android:exported="false"
+401-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:19:13-37
+402            android:theme="@style/StripeDefaultTheme" />
+402-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:20:13-54
+403        <activity
+403-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:21:9-24:57
+404            android:name="com.stripe.android.view.PaymentMethodsActivity"
+404-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:22:13-74
+405            android:exported="false"
+405-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:23:13-37
+406            android:theme="@style/StripeDefaultTheme" />
+406-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:24:13-54
+407        <activity
+407-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:25:9-28:57
+408            android:name="com.stripe.android.view.PaymentFlowActivity"
+408-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:26:13-71
+409            android:exported="false"
+409-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:27:13-37
+410            android:theme="@style/StripeDefaultTheme" />
+410-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:28:13-54
+411        <activity
+411-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:29:9-33:58
+412            android:name="com.stripe.android.view.PaymentAuthWebViewActivity"
+412-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:30:13-78
+413            android:exported="false"
+413-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:31:13-37
+414            android:theme="@style/StripeDefaultTheme"
+414-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:32:13-54
+415            android:windowSoftInputMode="adjustResize" />
+415-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:33:13-55
+416        <activity
+416-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:34:9-37:61
+417            android:name="com.stripe.android.view.PaymentRelayActivity"
+417-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:35:13-72
+418            android:exported="false"
+418-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:36:13-37
+419            android:theme="@style/StripeTransparentTheme" />
+419-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:37:13-58
+420        <!--
+421        Set android:launchMode="singleTop" so that the StripeBrowserLauncherActivity instance that
+422        launched the browser Activity will also handle the return URL deep link.
+423        -->
+424        <activity
+424-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:43:9-47:61
+425            android:name="com.stripe.android.payments.StripeBrowserLauncherActivity"
+425-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:44:13-85
+426            android:exported="false"
+426-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:45:13-37
+427            android:launchMode="singleTask"
+427-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:46:13-44
+428            android:theme="@style/StripeTransparentTheme" />
+428-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:47:13-58
+429        <activity
+429-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:48:9-65:20
+430            android:name="com.stripe.android.payments.StripeBrowserProxyReturnActivity"
+430-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:49:13-88
+431            android:exported="true"
+431-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:50:13-36
+432            android:launchMode="singleTask"
+432-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:51:13-44
+433            android:theme="@style/StripeTransparentTheme" >
+433-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:52:13-58
+434            <intent-filter>
+434-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:53:13-64:29
+435                <action android:name="android.intent.action.VIEW" />
+435-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:20:13-65
+435-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:20:21-62
+436
+437                <category android:name="android.intent.category.DEFAULT" />
+437-->[com.stripe:financial-connections:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\46654187303e3f2831e2f199e2dbfa66\transformed\jetified-financial-connections-20.11.0\AndroidManifest.xml:29:17-76
+437-->[com.stripe:financial-connections:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\46654187303e3f2831e2f199e2dbfa66\transformed\jetified-financial-connections-20.11.0\AndroidManifest.xml:29:27-73
+438                <category android:name="android.intent.category.BROWSABLE" />
+438-->[com.stripe:financial-connections:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\46654187303e3f2831e2f199e2dbfa66\transformed\jetified-financial-connections-20.11.0\AndroidManifest.xml:30:17-78
+438-->[com.stripe:financial-connections:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\46654187303e3f2831e2f199e2dbfa66\transformed\jetified-financial-connections-20.11.0\AndroidManifest.xml:30:27-75
+439
+440                <!-- Must match `DefaultReturnUrl#value`. -->
+441                <data
+441-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:21:13-44
+442                    android:host="payment_return_url"
+443                    android:path="/eShop.multivendor.customer"
+444                    android:scheme="stripesdk" />
+444-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:21:19-41
+445            </intent-filter>
+446        </activity>
+447        <activity
+447-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:66:9-69:57
+448            android:name="com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity"
+448-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:67:13-114
+449            android:exported="false"
+449-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:68:13-37
+450            android:theme="@style/StripeDefaultTheme" />
+450-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:69:13-54
+451        <activity
+451-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:70:9-73:66
+452            android:name="com.stripe.android.googlepaylauncher.StripeGooglePayActivity"
+452-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:71:13-88
+453            android:exported="false"
+453-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:72:13-37
+454            android:theme="@style/StripeGooglePayDefaultTheme" />
+454-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:73:13-63
+455        <activity
+455-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:74:9-77:66
+456            android:name="com.stripe.android.googlepaylauncher.GooglePayLauncherActivity"
+456-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:75:13-90
+457            android:exported="false"
+457-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:76:13-37
+458            android:theme="@style/StripeGooglePayDefaultTheme" />
+458-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:77:13-63
+459        <activity
+459-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:78:9-81:66
+460            android:name="com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity"
+460-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:79:13-103
+461            android:exported="false"
+461-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:80:13-37
+462            android:theme="@style/StripeGooglePayDefaultTheme" />
+462-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:81:13-63
+463        <activity
+463-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:82:9-85:62
+464            android:name="com.stripe.android.payments.paymentlauncher.PaymentLauncherConfirmationActivity"
+464-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:83:13-107
+465            android:exported="false"
+465-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:84:13-37
+466            android:theme="@style/PayLauncherDefaultTheme" />
+466-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:85:13-59
+467        <activity
+467-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:86:9-89:61
+468            android:name="com.stripe.android.payments.bankaccount.ui.CollectBankAccountActivity"
+468-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:87:13-97
+469            android:exported="false"
+469-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:88:13-37
+470            android:theme="@style/StripeTransparentTheme" /> <!-- Needs to be explicitly declared on P+ -->
+470-->[com.stripe:payments-core:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\469a48de25db3202a3745f700709f1ba\transformed\jetified-payments-core-20.11.0\AndroidManifest.xml:89:13-58
+471        <uses-library
+471-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\0ac09d87547734ef31750ce43ecbe509\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+472            android:name="org.apache.http.legacy"
+472-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\0ac09d87547734ef31750ce43ecbe509\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+473            android:required="false" />
+473-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\0ac09d87547734ef31750ce43ecbe509\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+474
+475        <activity
+475-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\392eabcf30c8d93cf521f8595d2567d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:27:9-44:20
+476            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+476-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\392eabcf30c8d93cf521f8595d2567d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:28:13-80
+477            android:excludeFromRecents="true"
+477-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\392eabcf30c8d93cf521f8595d2567d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:29:13-46
+478            android:exported="true"
+478-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\392eabcf30c8d93cf521f8595d2567d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:30:13-36
+479            android:launchMode="singleTask"
+479-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\392eabcf30c8d93cf521f8595d2567d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:31:13-44
+480            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+480-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\392eabcf30c8d93cf521f8595d2567d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:32:13-72
+481            <intent-filter>
+481-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\392eabcf30c8d93cf521f8595d2567d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:33:13-43:29
+482                <action android:name="android.intent.action.VIEW" />
+482-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:20:13-65
+482-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:20:21-62
+483
+484                <category android:name="android.intent.category.DEFAULT" />
+484-->[com.stripe:financial-connections:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\46654187303e3f2831e2f199e2dbfa66\transformed\jetified-financial-connections-20.11.0\AndroidManifest.xml:29:17-76
+484-->[com.stripe:financial-connections:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\46654187303e3f2831e2f199e2dbfa66\transformed\jetified-financial-connections-20.11.0\AndroidManifest.xml:29:27-73
+485                <category android:name="android.intent.category.BROWSABLE" />
+485-->[com.stripe:financial-connections:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\46654187303e3f2831e2f199e2dbfa66\transformed\jetified-financial-connections-20.11.0\AndroidManifest.xml:30:17-78
+485-->[com.stripe:financial-connections:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\46654187303e3f2831e2f199e2dbfa66\transformed\jetified-financial-connections-20.11.0\AndroidManifest.xml:30:27-75
+486
+487                <data
+487-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:21:13-44
+488                    android:host="firebase.auth"
+489                    android:path="/"
+490                    android:scheme="genericidp" />
+490-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:21:19-41
+491            </intent-filter>
+492        </activity>
+493        <activity
+493-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\392eabcf30c8d93cf521f8595d2567d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:45:9-62:20
+494            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+494-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\392eabcf30c8d93cf521f8595d2567d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:46:13-79
+495            android:excludeFromRecents="true"
+495-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\392eabcf30c8d93cf521f8595d2567d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:47:13-46
+496            android:exported="true"
+496-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\392eabcf30c8d93cf521f8595d2567d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:48:13-36
+497            android:launchMode="singleTask"
+497-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\392eabcf30c8d93cf521f8595d2567d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:49:13-44
+498            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+498-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\392eabcf30c8d93cf521f8595d2567d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:50:13-72
+499            <intent-filter>
+499-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\392eabcf30c8d93cf521f8595d2567d9\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:51:13-61:29
+500                <action android:name="android.intent.action.VIEW" />
+500-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:20:13-65
+500-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:20:21-62
+501
+502                <category android:name="android.intent.category.DEFAULT" />
+502-->[com.stripe:financial-connections:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\46654187303e3f2831e2f199e2dbfa66\transformed\jetified-financial-connections-20.11.0\AndroidManifest.xml:29:17-76
+502-->[com.stripe:financial-connections:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\46654187303e3f2831e2f199e2dbfa66\transformed\jetified-financial-connections-20.11.0\AndroidManifest.xml:29:27-73
+503                <category android:name="android.intent.category.BROWSABLE" />
+503-->[com.stripe:financial-connections:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\46654187303e3f2831e2f199e2dbfa66\transformed\jetified-financial-connections-20.11.0\AndroidManifest.xml:30:17-78
+503-->[com.stripe:financial-connections:20.11.0] C:\Users\StyKon\.gradle\caches\transforms-3\46654187303e3f2831e2f199e2dbfa66\transformed\jetified-financial-connections-20.11.0\AndroidManifest.xml:30:27-75
+504
+505                <data
+505-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:21:13-44
+506                    android:host="firebase.auth"
+507                    android:path="/"
+508                    android:scheme="recaptcha" />
+508-->D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\android\app\src\main\AndroidManifest.xml:21:19-41
+509            </intent-filter>
+510        </activity>
+511        <activity
+511-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\b3a163aef9ae210cc0fccb2f78192b76\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:23:9-27:75
+512            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+512-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\b3a163aef9ae210cc0fccb2f78192b76\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:24:13-93
+513            android:excludeFromRecents="true"
+513-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\b3a163aef9ae210cc0fccb2f78192b76\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:25:13-46
+514            android:exported="false"
+514-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\b3a163aef9ae210cc0fccb2f78192b76\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:26:13-37
+515            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+515-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\b3a163aef9ae210cc0fccb2f78192b76\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:27:13-72
+516        <!--
+517            Service handling Google Sign-In user revocation. For apps that do not integrate with
+518            Google Sign-In, this service will never be started.
+519        -->
+520        <service
+520-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\b3a163aef9ae210cc0fccb2f78192b76\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:33:9-37:51
+521            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+521-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\b3a163aef9ae210cc0fccb2f78192b76\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:34:13-89
+522            android:exported="true"
+522-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\b3a163aef9ae210cc0fccb2f78192b76\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:35:13-36
+523            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+523-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\b3a163aef9ae210cc0fccb2f78192b76\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:36:13-107
+524            android:visibleToInstantApps="true" />
+524-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\b3a163aef9ae210cc0fccb2f78192b76\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:37:13-48
+525
+526        <activity
+526-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\StyKon\.gradle\caches\transforms-3\68144719fb24297aff67e13d97479b55\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:23:9-26:66
+527            android:name="com.paytm.pgsdk.PaytmPGActivity"
+527-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\StyKon\.gradle\caches\transforms-3\68144719fb24297aff67e13d97479b55\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:24:13-59
+528            android:screenOrientation="portrait"
+528-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\StyKon\.gradle\caches\transforms-3\68144719fb24297aff67e13d97479b55\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:25:13-49
+529            android:theme="@style/Theme.AppCompat.NoActionBar" />
+529-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\StyKon\.gradle\caches\transforms-3\68144719fb24297aff67e13d97479b55\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:26:13-63
+530        <activity
+530-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\StyKon\.gradle\caches\transforms-3\68144719fb24297aff67e13d97479b55\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:27:9-29:63
+531            android:name="com.paytm.pgsdk.AioMatchUserActivity"
+531-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\StyKon\.gradle\caches\transforms-3\68144719fb24297aff67e13d97479b55\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:28:13-64
+532            android:theme="@style/TransparentActivityTheme" />
+532-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\StyKon\.gradle\caches\transforms-3\68144719fb24297aff67e13d97479b55\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:29:13-60
+533
+534        <service
+534-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\StyKon\.gradle\caches\transforms-3\68144719fb24297aff67e13d97479b55\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:31:9-33:40
+535            android:name="com.paytm.pgsdk.IntentServicePostNotification"
+535-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\StyKon\.gradle\caches\transforms-3\68144719fb24297aff67e13d97479b55\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:32:13-73
+536            android:exported="false" />
+536-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\StyKon\.gradle\caches\transforms-3\68144719fb24297aff67e13d97479b55\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:33:13-37
+537        <service
+537-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\StyKon\.gradle\caches\transforms-3\68144719fb24297aff67e13d97479b55\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:34:9-36:40
+538            android:name="com.paytm.pgsdk.IntentServicePreNotification"
+538-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\StyKon\.gradle\caches\transforms-3\68144719fb24297aff67e13d97479b55\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:35:13-72
+539            android:exported="false" />
+539-->[com.paytm.appinvokesdk:appinvokesdk:1.6.4] C:\Users\StyKon\.gradle\caches\transforms-3\68144719fb24297aff67e13d97479b55\transformed\jetified-appinvokesdk-1.6.4\AndroidManifest.xml:36:13-37
+540
+541        <activity
+541-->[com.stripe:stripe-3ds2-android:6.1.5] C:\Users\StyKon\.gradle\caches\transforms-3\2e729dfe965080fb7e65ae0235b875cd\transformed\jetified-stripe-3ds2-android-6.1.5\AndroidManifest.xml:10:9-13:54
+542            android:name="com.stripe.android.stripe3ds2.views.ChallengeActivity"
+542-->[com.stripe:stripe-3ds2-android:6.1.5] C:\Users\StyKon\.gradle\caches\transforms-3\2e729dfe965080fb7e65ae0235b875cd\transformed\jetified-stripe-3ds2-android-6.1.5\AndroidManifest.xml:11:13-81
+543            android:exported="false"
+543-->[com.stripe:stripe-3ds2-android:6.1.5] C:\Users\StyKon\.gradle\caches\transforms-3\2e729dfe965080fb7e65ae0235b875cd\transformed\jetified-stripe-3ds2-android-6.1.5\AndroidManifest.xml:12:13-37
+544            android:theme="@style/Stripe3DS2Theme" />
+544-->[com.stripe:stripe-3ds2-android:6.1.5] C:\Users\StyKon\.gradle\caches\transforms-3\2e729dfe965080fb7e65ae0235b875cd\transformed\jetified-stripe-3ds2-android-6.1.5\AndroidManifest.xml:13:13-51
+545
+546        <service
+546-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\StyKon\.gradle\caches\transforms-3\6f15ca2634c59fc6dec7371f5a8c1902\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:14:9-17:72
+547            android:name="easypay.appinvoke.utils.EasyPayConfigDownloader"
+547-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\StyKon\.gradle\caches\transforms-3\6f15ca2634c59fc6dec7371f5a8c1902\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:15:13-75
+548            android:exported="false"
+548-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\StyKon\.gradle\caches\transforms-3\6f15ca2634c59fc6dec7371f5a8c1902\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:16:13-37
+549            android:permission="android.permission.BIND_JOB_SERVICE" />
+549-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\StyKon\.gradle\caches\transforms-3\6f15ca2634c59fc6dec7371f5a8c1902\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:17:13-69
+550        <service
+550-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\StyKon\.gradle\caches\transforms-3\6f15ca2634c59fc6dec7371f5a8c1902\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:18:9-22:72
+551            android:name="easypay.appinvoke.utils.AnalyticsService"
+551-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\StyKon\.gradle\caches\transforms-3\6f15ca2634c59fc6dec7371f5a8c1902\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:19:13-68
+552            android:enabled="true"
+552-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\StyKon\.gradle\caches\transforms-3\6f15ca2634c59fc6dec7371f5a8c1902\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:20:13-35
+553            android:exported="false"
+553-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\StyKon\.gradle\caches\transforms-3\6f15ca2634c59fc6dec7371f5a8c1902\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:21:13-37
+554            android:permission="android.permission.BIND_JOB_SERVICE" />
+554-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\StyKon\.gradle\caches\transforms-3\6f15ca2634c59fc6dec7371f5a8c1902\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:22:13-69
+555
+556        <activity android:name="easypay.appinvoke.AnalyticsManagerInfoDisplayActivity" />
+556-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\StyKon\.gradle\caches\transforms-3\6f15ca2634c59fc6dec7371f5a8c1902\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:24:9-90
+556-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\StyKon\.gradle\caches\transforms-3\6f15ca2634c59fc6dec7371f5a8c1902\transformed\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:24:19-87
+557
+558        <receiver
+558-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\f64f4fc95f302191be1ba345dd0b4832\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:31:9-38:20
+559            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+559-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\f64f4fc95f302191be1ba345dd0b4832\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:32:13-78
+560            android:exported="true"
+560-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\f64f4fc95f302191be1ba345dd0b4832\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:33:13-36
+561            android:permission="com.google.android.c2dm.permission.SEND" >
+561-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\f64f4fc95f302191be1ba345dd0b4832\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:34:13-73
+562            <intent-filter>
+562-->[:firebase_messaging] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-34:29
+563                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+563-->[:firebase_messaging] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:17-81
+563-->[:firebase_messaging] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:25-78
+564            </intent-filter>
+565        </receiver>
+566        <!--
+567             FirebaseMessagingService performs security checks at runtime,
+568             but set to not exported to explicitly avoid allowing another app to call it.
+569        -->
+570        <service
+570-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\f64f4fc95f302191be1ba345dd0b4832\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:44:9-51:19
+571            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+571-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\f64f4fc95f302191be1ba345dd0b4832\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:45:13-82
+572            android:directBootAware="true"
+572-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\f64f4fc95f302191be1ba345dd0b4832\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:46:13-43
+573            android:exported="false" >
+573-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\f64f4fc95f302191be1ba345dd0b4832\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:47:13-37
+574            <intent-filter android:priority="-500" >
+574-->[:firebase_messaging] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-25:29
+575                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+575-->[:firebase_messaging] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-78
+575-->[:firebase_messaging] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:25-75
+576            </intent-filter>
+577        </service>
+578
+579        <activity
+579-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\StyKon\.gradle\caches\transforms-3\2d89343d1a146e8ea3ce018eac5a14a2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+580            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+580-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\StyKon\.gradle\caches\transforms-3\2d89343d1a146e8ea3ce018eac5a14a2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+581            android:exported="false"
+581-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\StyKon\.gradle\caches\transforms-3\2d89343d1a146e8ea3ce018eac5a14a2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+582            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+582-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\StyKon\.gradle\caches\transforms-3\2d89343d1a146e8ea3ce018eac5a14a2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+583
+584        <provider
+584-->[com.google.firebase:firebase-common:20.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\90fa70d41b48ff4926cc9ed3f13b3f1c\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+585            android:name="com.google.firebase.provider.FirebaseInitProvider"
+585-->[com.google.firebase:firebase-common:20.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\90fa70d41b48ff4926cc9ed3f13b3f1c\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+586            android:authorities="eShop.multivendor.customer.firebaseinitprovider"
+586-->[com.google.firebase:firebase-common:20.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\90fa70d41b48ff4926cc9ed3f13b3f1c\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+587            android:directBootAware="true"
+587-->[com.google.firebase:firebase-common:20.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\90fa70d41b48ff4926cc9ed3f13b3f1c\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+588            android:exported="false"
+588-->[com.google.firebase:firebase-common:20.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\90fa70d41b48ff4926cc9ed3f13b3f1c\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+589            android:initOrder="100" />
+589-->[com.google.firebase:firebase-common:20.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\90fa70d41b48ff4926cc9ed3f13b3f1c\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+590
+591        <receiver
+591-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\948e6805c8a104814f505ea3e26e36f3\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:29:9-33:20
+592            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+592-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\948e6805c8a104814f505ea3e26e36f3\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:30:13-85
+593            android:enabled="true"
+593-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\948e6805c8a104814f505ea3e26e36f3\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:31:13-35
+594            android:exported="false" >
+594-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\948e6805c8a104814f505ea3e26e36f3\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:32:13-37
+595        </receiver>
+596
+597        <service
+597-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\948e6805c8a104814f505ea3e26e36f3\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:35:9-38:40
+598            android:name="com.google.android.gms.measurement.AppMeasurementService"
+598-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\948e6805c8a104814f505ea3e26e36f3\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:36:13-84
+599            android:enabled="true"
+599-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\948e6805c8a104814f505ea3e26e36f3\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:37:13-35
+600            android:exported="false" />
+600-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\948e6805c8a104814f505ea3e26e36f3\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:38:13-37
+601        <service
+601-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\948e6805c8a104814f505ea3e26e36f3\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:39:9-43:72
+602            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+602-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\948e6805c8a104814f505ea3e26e36f3\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:40:13-87
+603            android:enabled="true"
+603-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\948e6805c8a104814f505ea3e26e36f3\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:41:13-35
+604            android:exported="false"
+604-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\948e6805c8a104814f505ea3e26e36f3\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:42:13-37
+605            android:permission="android.permission.BIND_JOB_SERVICE" />
+605-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\948e6805c8a104814f505ea3e26e36f3\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:43:13-69
+606
+607        <meta-data
+607-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\25480950b0d51d325f39e6dd3888bac6\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+608            android:name="com.google.android.gms.version"
+608-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\25480950b0d51d325f39e6dd3888bac6\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+609            android:value="@integer/google_play_services_version" />
+609-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\25480950b0d51d325f39e6dd3888bac6\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+610
+611        <uses-library
+611-->[androidx.window:window:1.0.0-beta04] C:\Users\StyKon\.gradle\caches\transforms-3\2880e71264fcb0754225811188b93d96\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+612            android:name="androidx.window.extensions"
+612-->[androidx.window:window:1.0.0-beta04] C:\Users\StyKon\.gradle\caches\transforms-3\2880e71264fcb0754225811188b93d96\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+613            android:required="false" />
+613-->[androidx.window:window:1.0.0-beta04] C:\Users\StyKon\.gradle\caches\transforms-3\2880e71264fcb0754225811188b93d96\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+614        <uses-library
+614-->[androidx.window:window:1.0.0-beta04] C:\Users\StyKon\.gradle\caches\transforms-3\2880e71264fcb0754225811188b93d96\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+615            android:name="androidx.window.sidecar"
+615-->[androidx.window:window:1.0.0-beta04] C:\Users\StyKon\.gradle\caches\transforms-3\2880e71264fcb0754225811188b93d96\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+616            android:required="false" />
+616-->[androidx.window:window:1.0.0-beta04] C:\Users\StyKon\.gradle\caches\transforms-3\2880e71264fcb0754225811188b93d96\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+617
+618        <service
+618-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\StyKon\.gradle\caches\transforms-3\36063a2897449dcb395c9535cba6f176\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+619            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+619-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\StyKon\.gradle\caches\transforms-3\36063a2897449dcb395c9535cba6f176\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+620            android:exported="false" >
+620-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\StyKon\.gradle\caches\transforms-3\36063a2897449dcb395c9535cba6f176\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+621            <meta-data
+621-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\StyKon\.gradle\caches\transforms-3\36063a2897449dcb395c9535cba6f176\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+622                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+622-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\StyKon\.gradle\caches\transforms-3\36063a2897449dcb395c9535cba6f176\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+623                android:value="cct" />
+623-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\StyKon\.gradle\caches\transforms-3\36063a2897449dcb395c9535cba6f176\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+624        </service>
+625        <service
+625-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\StyKon\.gradle\caches\transforms-3\1e89ebebe27912890a597fcc498b0b29\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+626            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+626-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\StyKon\.gradle\caches\transforms-3\1e89ebebe27912890a597fcc498b0b29\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+627            android:exported="false"
+627-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\StyKon\.gradle\caches\transforms-3\1e89ebebe27912890a597fcc498b0b29\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+628            android:permission="android.permission.BIND_JOB_SERVICE" >
+628-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\StyKon\.gradle\caches\transforms-3\1e89ebebe27912890a597fcc498b0b29\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+629        </service>
+630
+631        <receiver
+631-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\StyKon\.gradle\caches\transforms-3\1e89ebebe27912890a597fcc498b0b29\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+632            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+632-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\StyKon\.gradle\caches\transforms-3\1e89ebebe27912890a597fcc498b0b29\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+633            android:exported="false" />
+633-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\StyKon\.gradle\caches\transforms-3\1e89ebebe27912890a597fcc498b0b29\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+634
+635        <provider
+635-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:31:9-39:20
+636            android:name="androidx.startup.InitializationProvider"
+636-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:32:13-67
+637            android:authorities="eShop.multivendor.customer.androidx-startup"
+637-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:33:13-68
+638            android:exported="false" >
+638-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:34:13-37
+639            <meta-data
+639-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:36:13-38:52
+640                android:name="androidx.work.WorkManagerInitializer"
+640-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:37:17-68
+641                android:value="androidx.startup" />
+641-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:38:17-49
+642            <meta-data
+642-->[androidx.emoji2:emoji2:1.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\9caed62585dae7d434f0c32e3fb70e92\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+643                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+643-->[androidx.emoji2:emoji2:1.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\9caed62585dae7d434f0c32e3fb70e92\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+644                android:value="androidx.startup" />
+644-->[androidx.emoji2:emoji2:1.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\9caed62585dae7d434f0c32e3fb70e92\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+645            <meta-data
+645-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\StyKon\.gradle\caches\transforms-3\2ceafc6adce4b1043aed4c48c6031b44\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+646                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+646-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\StyKon\.gradle\caches\transforms-3\2ceafc6adce4b1043aed4c48c6031b44\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+647                android:value="androidx.startup" />
+647-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\StyKon\.gradle\caches\transforms-3\2ceafc6adce4b1043aed4c48c6031b44\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+648            <meta-data
+648-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\a18eecef61f629749fa75cb82424af5f\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:30:13-32:52
+649                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+649-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\a18eecef61f629749fa75cb82424af5f\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:31:17-85
+650                android:value="androidx.startup" />
+650-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\a18eecef61f629749fa75cb82424af5f\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:32:17-49
+651        </provider>
+652
+653        <service
+653-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:41:9-46:35
+654            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+654-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:42:13-88
+655            android:directBootAware="false"
+655-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:43:13-44
+656            android:enabled="@bool/enable_system_alarm_service_default"
+656-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:44:13-72
+657            android:exported="false" />
+657-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:45:13-37
+658        <service
+658-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:47:9-53:35
+659            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+659-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:48:13-84
+660            android:directBootAware="false"
+660-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:49:13-44
+661            android:enabled="@bool/enable_system_job_service_default"
+661-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:50:13-70
+662            android:exported="true"
+662-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:51:13-36
+663            android:permission="android.permission.BIND_JOB_SERVICE" />
+663-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:52:13-69
+664        <service
+664-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:54:9-59:35
+665            android:name="androidx.work.impl.foreground.SystemForegroundService"
+665-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:55:13-81
+666            android:directBootAware="false"
+666-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:56:13-44
+667            android:enabled="@bool/enable_system_foreground_service_default"
+667-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:57:13-77
+668            android:exported="false" />
+668-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:58:13-37
+669
+670        <receiver
+670-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:61:9-66:35
+671            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+671-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:62:13-88
+672            android:directBootAware="false"
+672-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:63:13-44
+673            android:enabled="true"
+673-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:64:13-35
+674            android:exported="false" />
+674-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:65:13-37
+675        <receiver
+675-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:67:9-77:20
+676            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+676-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:68:13-106
+677            android:directBootAware="false"
+677-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:69:13-44
+678            android:enabled="false"
+678-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:70:13-36
+679            android:exported="false" >
+679-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:71:13-37
+680            <intent-filter>
+680-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:73:13-76:29
+681                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+681-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:17-87
+681-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:25-84
+682                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+682-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:17-90
+682-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:25-87
+683            </intent-filter>
+684        </receiver>
+685        <receiver
+685-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:78:9-88:20
+686            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+686-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:79:13-104
+687            android:directBootAware="false"
+687-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:80:13-44
+688            android:enabled="false"
+688-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:81:13-36
+689            android:exported="false" >
+689-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:82:13-37
+690            <intent-filter>
+690-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:84:13-87:29
+691                <action android:name="android.intent.action.BATTERY_OKAY" />
+691-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:17-77
+691-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:25-74
+692                <action android:name="android.intent.action.BATTERY_LOW" />
+692-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:17-76
+692-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:25-73
+693            </intent-filter>
+694        </receiver>
+695        <receiver
+695-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:89:9-99:20
+696            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+696-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:90:13-104
+697            android:directBootAware="false"
+697-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:91:13-44
+698            android:enabled="false"
+698-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:92:13-36
+699            android:exported="false" >
+699-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:93:13-37
+700            <intent-filter>
+700-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:95:13-98:29
+701                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+701-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:17-83
+701-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:25-80
+702                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+702-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:17-82
+702-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:25-79
+703            </intent-filter>
+704        </receiver>
+705        <receiver
+705-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:100:9-109:20
+706            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+706-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:101:13-103
+707            android:directBootAware="false"
+707-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:102:13-44
+708            android:enabled="false"
+708-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:103:13-36
+709            android:exported="false" >
+709-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:104:13-37
+710            <intent-filter>
+710-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:106:13-108:29
+711                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+711-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:17-79
+711-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:25-76
+712            </intent-filter>
+713        </receiver>
+714        <receiver
+714-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:110:9-121:20
+715            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+715-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:111:13-88
+716            android:directBootAware="false"
+716-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:112:13-44
+717            android:enabled="false"
+717-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:113:13-36
+718            android:exported="false" >
+718-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:114:13-37
+719            <intent-filter>
+719-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:116:13-120:29
+720                <action android:name="android.intent.action.BOOT_COMPLETED" />
+720-->[:flutter_local_notifications] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:17-79
+720-->[:flutter_local_notifications] D:\PayCoinFlutter\shop\eShop - Multi Vendor - v2.0.9\eShop - Multi Vendor Flutter - v2.0.9\Customer Application 2.0.9\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:25-76
+721                <action android:name="android.intent.action.TIME_SET" />
+721-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:17-73
+721-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:25-70
+722                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+722-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:17-81
+722-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:25-78
+723            </intent-filter>
+724        </receiver>
+725        <receiver
+725-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:122:9-131:20
+726            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+726-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:123:13-99
+727            android:directBootAware="false"
+727-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:124:13-44
+728            android:enabled="@bool/enable_system_alarm_service_default"
+728-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:125:13-72
+729            android:exported="false" >
+729-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:126:13-37
+730            <intent-filter>
+730-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:128:13-130:29
+731                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+731-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:17-98
+731-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:25-95
+732            </intent-filter>
+733        </receiver>
+734        <receiver
+734-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:132:9-142:20
+735            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+735-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:133:13-78
+736            android:directBootAware="false"
+736-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:134:13-44
+737            android:enabled="true"
+737-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:135:13-35
+738            android:exported="true"
+738-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:136:13-36
+739            android:permission="android.permission.DUMP" >
+739-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:137:13-57
+740            <intent-filter>
+740-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:139:13-141:29
+741                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+741-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:17-88
+741-->[androidx.work:work-runtime:2.7.1] C:\Users\StyKon\.gradle\caches\transforms-3\1d46f81a96faac4a82825b81ce7bf539\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:25-85
+742            </intent-filter>
+743        </receiver>
+744        <receiver
+744-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\a18eecef61f629749fa75cb82424af5f\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:35:9-47:20
+745            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+745-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\a18eecef61f629749fa75cb82424af5f\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:36:13-76
+746            android:directBootAware="false"
+746-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\a18eecef61f629749fa75cb82424af5f\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:37:13-44
+747            android:enabled="true"
+747-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\a18eecef61f629749fa75cb82424af5f\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:38:13-35
+748            android:exported="true"
+748-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\a18eecef61f629749fa75cb82424af5f\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:39:13-36
+749            android:permission="android.permission.DUMP" >
+749-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\a18eecef61f629749fa75cb82424af5f\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:40:13-57
+750            <intent-filter>
+750-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\a18eecef61f629749fa75cb82424af5f\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:41:13-43:29
+751                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+751-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\a18eecef61f629749fa75cb82424af5f\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:42:17-91
+751-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\a18eecef61f629749fa75cb82424af5f\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:42:25-88
+752            </intent-filter>
+753            <intent-filter>
+753-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\a18eecef61f629749fa75cb82424af5f\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:44:13-46:29
+754                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+754-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\a18eecef61f629749fa75cb82424af5f\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:45:17-85
+754-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\StyKon\.gradle\caches\transforms-3\a18eecef61f629749fa75cb82424af5f\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:45:25-82
+755            </intent-filter>
+756        </receiver>
+757
+758        <service
+758-->[androidx.room:room-runtime:2.2.5] C:\Users\StyKon\.gradle\caches\transforms-3\3ebdb42754af3f104ec4ef0b44f81263\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+759            android:name="androidx.room.MultiInstanceInvalidationService"
+759-->[androidx.room:room-runtime:2.2.5] C:\Users\StyKon\.gradle\caches\transforms-3\3ebdb42754af3f104ec4ef0b44f81263\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+760            android:directBootAware="true"
+760-->[androidx.room:room-runtime:2.2.5] C:\Users\StyKon\.gradle\caches\transforms-3\3ebdb42754af3f104ec4ef0b44f81263\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+761            android:exported="false" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+761-->[androidx.room:room-runtime:2.2.5] C:\Users\StyKon\.gradle\caches\transforms-3\3ebdb42754af3f104ec4ef0b44f81263\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+762        <activity
+762-->[com.google.android.play:core:1.10.0] C:\Users\StyKon\.gradle\caches\transforms-3\f2a81094086897eeec1137d4d8f95ebe\transformed\jetified-core-1.10.0\AndroidManifest.xml:12:5-271
+763            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+763-->[com.google.android.play:core:1.10.0] C:\Users\StyKon\.gradle\caches\transforms-3\f2a81094086897eeec1137d4d8f95ebe\transformed\jetified-core-1.10.0\AndroidManifest.xml:12:15-102
+764            android:enabled="false"
+764-->[com.google.android.play:core:1.10.0] C:\Users\StyKon\.gradle\caches\transforms-3\f2a81094086897eeec1137d4d8f95ebe\transformed\jetified-core-1.10.0\AndroidManifest.xml:12:103-126
+765            android:exported="false"
+765-->[com.google.android.play:core:1.10.0] C:\Users\StyKon\.gradle\caches\transforms-3\f2a81094086897eeec1137d4d8f95ebe\transformed\jetified-core-1.10.0\AndroidManifest.xml:12:127-151
+766            android:launchMode="singleInstance"
+766-->[com.google.android.play:core:1.10.0] C:\Users\StyKon\.gradle\caches\transforms-3\f2a81094086897eeec1137d4d8f95ebe\transformed\jetified-core-1.10.0\AndroidManifest.xml:12:204-239
+767            android:process=":playcore_missing_splits_activity"
+767-->[com.google.android.play:core:1.10.0] C:\Users\StyKon\.gradle\caches\transforms-3\f2a81094086897eeec1137d4d8f95ebe\transformed\jetified-core-1.10.0\AndroidManifest.xml:12:152-203
+768            android:stateNotNeeded="true" />
+768-->[com.google.android.play:core:1.10.0] C:\Users\StyKon\.gradle\caches\transforms-3\f2a81094086897eeec1137d4d8f95ebe\transformed\jetified-core-1.10.0\AndroidManifest.xml:12:240-269
+769        <activity
+769-->[com.google.android.play:core:1.10.0] C:\Users\StyKon\.gradle\caches\transforms-3\f2a81094086897eeec1137d4d8f95ebe\transformed\jetified-core-1.10.0\AndroidManifest.xml:13:5-226
+770            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+770-->[com.google.android.play:core:1.10.0] C:\Users\StyKon\.gradle\caches\transforms-3\f2a81094086897eeec1137d4d8f95ebe\transformed\jetified-core-1.10.0\AndroidManifest.xml:13:15-95
+771            android:enabled="false"
+771-->[com.google.android.play:core:1.10.0] C:\Users\StyKon\.gradle\caches\transforms-3\f2a81094086897eeec1137d4d8f95ebe\transformed\jetified-core-1.10.0\AndroidManifest.xml:13:96-119
+772            android:exported="false"
+772-->[com.google.android.play:core:1.10.0] C:\Users\StyKon\.gradle\caches\transforms-3\f2a81094086897eeec1137d4d8f95ebe\transformed\jetified-core-1.10.0\AndroidManifest.xml:13:120-144
+773            android:stateNotNeeded="true"
+773-->[com.google.android.play:core:1.10.0] C:\Users\StyKon\.gradle\caches\transforms-3\f2a81094086897eeec1137d4d8f95ebe\transformed\jetified-core-1.10.0\AndroidManifest.xml:13:145-174
+774            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
+774-->[com.google.android.play:core:1.10.0] C:\Users\StyKon\.gradle\caches\transforms-3\f2a81094086897eeec1137d4d8f95ebe\transformed\jetified-core-1.10.0\AndroidManifest.xml:13:175-224
+775        <service
+775-->[com.google.android.play:core:1.10.0] C:\Users\StyKon\.gradle\caches\transforms-3\f2a81094086897eeec1137d4d8f95ebe\transformed\jetified-core-1.10.0\AndroidManifest.xml:16:5-18:15
+776            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+776-->[com.google.android.play:core:1.10.0] C:\Users\StyKon\.gradle\caches\transforms-3\f2a81094086897eeec1137d4d8f95ebe\transformed\jetified-core-1.10.0\AndroidManifest.xml:16:14-95
+777            android:enabled="false"
+777-->[com.google.android.play:core:1.10.0] C:\Users\StyKon\.gradle\caches\transforms-3\f2a81094086897eeec1137d4d8f95ebe\transformed\jetified-core-1.10.0\AndroidManifest.xml:16:96-119
+778            android:exported="true" >
+778-->[com.google.android.play:core:1.10.0] C:\Users\StyKon\.gradle\caches\transforms-3\f2a81094086897eeec1137d4d8f95ebe\transformed\jetified-core-1.10.0\AndroidManifest.xml:16:120-143
+779            <meta-data
+779-->[com.google.android.play:core:1.10.0] C:\Users\StyKon\.gradle\caches\transforms-3\f2a81094086897eeec1137d4d8f95ebe\transformed\jetified-core-1.10.0\AndroidManifest.xml:17:7-108
+780                android:name="com.google.android.play.core.assetpacks.versionCode"
+780-->[com.google.android.play:core:1.10.0] C:\Users\StyKon\.gradle\caches\transforms-3\f2a81094086897eeec1137d4d8f95ebe\transformed\jetified-core-1.10.0\AndroidManifest.xml:17:18-84
+781                android:value="11000" />
+781-->[com.google.android.play:core:1.10.0] C:\Users\StyKon\.gradle\caches\transforms-3\f2a81094086897eeec1137d4d8f95ebe\transformed\jetified-core-1.10.0\AndroidManifest.xml:17:85-106
+782        </service>
+783        <service
+783-->[com.google.android.play:core:1.10.0] C:\Users\StyKon\.gradle\caches\transforms-3\f2a81094086897eeec1137d4d8f95ebe\transformed\jetified-core-1.10.0\AndroidManifest.xml:19:5-147
+784            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
+784-->[com.google.android.play:core:1.10.0] C:\Users\StyKon\.gradle\caches\transforms-3\f2a81094086897eeec1137d4d8f95ebe\transformed\jetified-core-1.10.0\AndroidManifest.xml:19:14-96
+785            android:enabled="false"
+785-->[com.google.android.play:core:1.10.0] C:\Users\StyKon\.gradle\caches\transforms-3\f2a81094086897eeec1137d4d8f95ebe\transformed\jetified-core-1.10.0\AndroidManifest.xml:19:97-120
+786            android:exported="false" />
+786-->[com.google.android.play:core:1.10.0] C:\Users\StyKon\.gradle\caches\transforms-3\f2a81094086897eeec1137d4d8f95ebe\transformed\jetified-core-1.10.0\AndroidManifest.xml:19:121-145
+787
+788        <meta-data
+788-->[com.google.android.instantapps:instantapps:1.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\f1e9ac208cd3752a8294d68a2c0f742d\transformed\jetified-instantapps-1.1.0\AndroidManifest.xml:10:9-12:33
+789            android:name="aia-compat-api-min-version"
+789-->[com.google.android.instantapps:instantapps:1.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\f1e9ac208cd3752a8294d68a2c0f742d\transformed\jetified-instantapps-1.1.0\AndroidManifest.xml:11:13-54
+790            android:value="1" />
+790-->[com.google.android.instantapps:instantapps:1.1.0] C:\Users\StyKon\.gradle\caches\transforms-3\f1e9ac208cd3752a8294d68a2c0f742d\transformed\jetified-instantapps-1.1.0\AndroidManifest.xml:12:13-30
+791    </application>
+792
+793</manifest>
